@@ -1,8 +1,20 @@
-#include <iostream>
-int main()
-{
-  std::cout << "Hello World!" << "\n";
-  // input two values
-  // use an if to see which is bigger and print it out
-  return 0;
+# include <iostream> 
+
+void smaller(int a, int b){
+  if (a > b){
+    std::cout << "The smaller number of the two is: " << b;
+  }else{
+    std::cout << "The smaller number of the two is: " << a;
+  }
 }
+
+int main(){
+  int a;
+  int b;
+  std::cout << "Enter the first number: " << std::endl;
+  std::cin >> a;
+  std::cout << "Enter the second number: " << std::endl;
+  std::cin >> b;
+  smaller(a,b);
+}
+
