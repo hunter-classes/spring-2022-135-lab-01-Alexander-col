@@ -16,5 +16,6 @@ int main(){
   std::cout << "Enter the second number: " << std::endl;
   std::cin >> b;
   smaller(a,b);
+  return 0;
 }
 

@@ -21,4 +21,5 @@ int main(){
   std::cout << "Enter the thrid Number:" << std:: endl;
   std::cin >> c;
   smaller3(a,b,c);
+  return 0;
 }

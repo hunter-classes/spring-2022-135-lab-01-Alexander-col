@@ -19,4 +19,5 @@ int main(){
   std::cout << "Enter year: ";
   std::cin >> year;
   leap(year);
+  return 0;
 }
